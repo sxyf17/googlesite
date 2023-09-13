@@ -11,8 +11,27 @@ a {
 
 #advanced-border {
     position: relative; 
-    top: 125px; 
+    top: 0px; 
     border-bottom: 1px solid #ebebeb;
+}
+
+#adv-button {
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    
+
+
 }
 
 #atw-bar, #tewop-bar, #aotw-bar, #notw-bar {
@@ -25,8 +44,10 @@ a {
     padding: 1px 8px;
     margin: 20px;
     width: 570px;
-    height: 29px;
-    padding-right: 16px;
+    margin-bottom: 15px;
+    position: relative;
+    right: 160px;
+    
 }
 
 
@@ -64,7 +85,7 @@ div {
 }
 
 #fpw-header {
-    font-size: large;
+    font-size: medium;
     font-family: arial, sans-serif;
     color: #333;
 }
@@ -72,7 +93,7 @@ div {
 .fpw-column {
 
     position: relative;
-    top: 200px;
+    top: 100px;
     display: inline-block;  
     height: 42px;
     font-family: arial, sans-serif;
@@ -83,8 +104,8 @@ div {
     height: 29px;
 
 }
-.fpw-column p {
-    margin-bottom: 20px;
+p {
+    margin-bottom: 48px;
 }
 
 #home-link-img {
@@ -112,10 +133,10 @@ div {
 .left-container {
 
     width: 20%; 
+    height: 100px;
     margin: 0 auto; 
     text-align: left; 
     padding: 20px; 
-    border: 1px solid #ccc;
     position: relative;
     right: 500px;
 }
@@ -142,6 +163,15 @@ div {
     color: #202124;
 }
 
+.right-container {
+
+    position: fixed;
+    
+    padding: 15px;
+    width: 300px;
+    top: 25px;
+    right: 166px;
+}
 
 #search-bar {
     
@@ -173,6 +203,7 @@ div {
     position: relative;
     top: 75px;
     left: 20px;
+
     
 }
 
@@ -189,6 +220,14 @@ div {
     font-size:  14px;
     position: relative;
     right: 25px;
+}
+
+#tdtitsb-header {
+    color: #777;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+
 }
 
 

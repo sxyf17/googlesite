@@ -4,16 +4,19 @@
         <title>Advanced Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <div>
-            <a href="index.html">
-                <img id="home-link-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Homepage">
-            </a>
-        </div>    
+           
         
     </head>
+
+    
     <body>
         
         <div class="left-container">
+            <div>
+                <a href="index.html">
+                    <img id="home-link-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Homepage">
+                </a>
+            </div> 
             <label id="adv-label">
                 Advanced Search 
             </label>
@@ -25,28 +28,43 @@
                 <p>any of these words:</p>
                 <p>none of these words:</p>
 
-            </div>
-                
-            
-            
+            </div>  
+        </div>
+       
+
         </div>
         <div id="advanced-border"></div>
         
         <div class="stacked-bars">
-            <div>
-                <input id="atw-bar" type="text" name="as_q">
-            </div>
-            
-            <div>
-                <input id="tewop-bar" type="text" name="">
-            </div>
-            <div>
-                <input id="aotw-bar" type="text" name="">
-            </div>
-            <div>
-                <input id="notw-bar" type="text" name="">
-            </div>
+            <form action="https://www.google.com/search?">
+                <input id="adv-button" type="submit" value="Advanced Search">
+                <div>
+                    <input id="atw-bar" type="text" name="as_q">
+                </div>
+                
+                <div>
+                    <input id="tewop-bar" type="text" name="as_epq">
+                </div>
+                <div>
+                    <input id="aotw-bar" type="text" name="as_oq">
+                </div>
+                <div>
+                    <input id="notw-bar" type="text" name="as_eq">
+                </div>
+            </form>
+        </div>
+        <div class="right-container">
+            <div class="fpw-column">
+                <p id="tdtitsb-header">To do this in the search box</p>
+                <p>Type the important words:   tricolor rat terrier</p>
+                <p>Put exact words in quotes:   "rat terrier"</p>
+                <p>Type OR between all the words you want:   miniature OR standard</p>
+                <p>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p>
+
+            </div>  
         </div>
         
     </body>
+   
+
 </html>
